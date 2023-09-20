@@ -1,0 +1,71 @@
+body {
+    background-color: #4c5084;
+    font-family: "Press Start 2P", Arial, sans-serif;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Press Start 2P", Arial, sans-serif;
+    text-align: center;
+}
+
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 10px;
+}
+
+.send-message {
+    width: 400px;
+    top: 5px;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 10px;
+}
+
+/* Input fields and button */
+input[type="text"] {
+    font-family: "Press Start 2P", Arial, sans-serif;
+    color: #FF6B6C;
+    font-size: 10px;
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #fff;
+}
+button {
+    font-family: "Press Start 2P", Arial, sans-serif;
+    font-size: 10px;
+    border-radius: 0 !important;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6B6C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul#messageList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#messageList li {
+    font-size: 10px;
+    font-family: "Press Start 2P", Arial, sans-serif;
+    color: #fff;
+    background-color: #29ADFF;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 0;
+}
