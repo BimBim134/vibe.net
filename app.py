@@ -1,8 +1,11 @@
-import json, ast
+import json
 from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__)
 
+def create_app():
+    app = Flask(__name__)
+    return app
 
 # Function to load existing messages from the JSON file
 def load_messages():
@@ -42,4 +45,5 @@ def send_message():
         return jsonify({"error": "Name and message are required"}), 400
 
 if __name__ == "__main__":
+    app = create_app()
     app.run(debug=True)
